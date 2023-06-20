@@ -3,9 +3,7 @@ C++ data structures project for CSE240 with Professor Justin Selgrad.
 
 Program info:
     Congaline is a templated linked list populated with Zombie objects. Zombies can be Red, Yellow, Green,
-    Blue, Magenta and Cyan. termcolor.hpp will color the zombies' output text to match their color.
-
-    Every turn will randomly generate a Zombie object and perform a random action on it. 
+    Blue, Magenta and Cyan. termcolor.hpp will color the zombies' output text to match their color. Every turn will randomly generate a Zombie object and perform a random action on it. 
     Actions include: 
       Engine! 
         This zombie becomes the first Zombie in the conga line
