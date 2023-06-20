@@ -26,4 +26,6 @@ Actions include:
     - Find the first Zombie of this color in line. Do a coin flip – if rand() % 2 == 0 then insert before, else insert after. If no Zombie of that color exists, then perform caboose_action on the zombie
 
 **Running the program:**
+
 Run the makefile in the project directory using the `make` command. The makefile will create an executable named "exe"
+Run the executable. You can use the optional command line tag `-s <integer>` to seed the `rand()` function. If no seed is provided, `rand()` will be seeded with time.
