@@ -9,20 +9,20 @@ Program info:
     Actions include: 
     - Engine!
         - This zombie becomes the first Zombie in the conga line
-      Caboose! 
-        This zombie becomes the last zombie in the conga line
-      Jump in the Line! 
-        This zombie joins the conga line at position X where X <= length of the linked list
-      Everyone Out! 
-        Remove all matching zombies from the linked list
-      You Out! 
-        Remove the first matching zombie from the linked list
-      Brains! 
-        Generate two more matching Zombies and add one to the front (engine_action), one to the end (caboose_action) and one to the middle (round down).
-      Rainbow Brains! 
-        Perform an engine_action on the zombie that was generated. Add one of each zombie color to the end via caboose_action in this order: Red, Yellow, Green, Blue, Cyan, Magenta
-      Making new Friends! 
-        Find the first Zombie of this color in line. Do a coin flip – if rand() % 2 == 0 then insert before, else insert after. If no Zombie of that color exists, then perform caboose_action on the zombie
+    - Caboose! 
+        - This zombie becomes the last zombie in the conga line
+    - Jump in the Line! 
+        - This zombie joins the conga line at position X where X <= length of the linked list
+    - Everyone Out! 
+        - Remove all matching zombies from the linked list
+    - You Out! 
+        - Remove the first matching zombie from the linked list
+    - Brains! 
+        - Generate two more matching Zombies and add one to the front (engine_action), one to the end (caboose_action) and one to the middle (round down).
+    - Rainbow Brains! 
+        - Perform an engine_action on the zombie that was generated. Add one of each zombie color to the end via caboose_action in this order: Red, Yellow, Green, Blue, Cyan, Magenta
+    - Making new Friends! 
+        - Find the first Zombie of this color in line. Do a coin flip – if rand() % 2 == 0 then insert before, else insert after. If no Zombie of that color exists, then perform caboose_action on the zombie
 
 Running the program:
     Run the makefile in the project directory. The makefile will create an executable named "exe"
